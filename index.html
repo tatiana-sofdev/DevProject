@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+    <link rel="stylesheet" href="./resources/css/index.css">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gritt-ify</title>
-    <link rel="stylesheet" href="./resources/css/index.css">
 </head>
 <body>
+    <!-- Navbar section -->
+    <nav class="navbar">
+        <ul>
+            <li><a class="blue" href="">Gritt-ify</a></li>
+            <li><a href="">Gritty Landing Banner</a></li>
+            <li><a href="">Gritter</a></li>
+        </ul>
+    </nav>
     <!-- Banner section -->
     <div class="banner">
         <h1>Gritty's landing banner</h1>
@@ -17,24 +25,26 @@
     </div>
 
     <!-- Gritter section -->
-    <div>
+    <div class="gritter-section">
         <span class="bold" id="gritter">Gritter </span>
         <p class="bold">Social media dedicated to Gitty... and only Gritty... cause he's a psycho.</p>
         <form action="">
             <input type="text"/>
             <input type="submit" value="Submit">
         </form>
+        <div id="greets">
+            <ul>
+                <li>
+                    <div class="avatar"></div><span>Hey there, it's Gritty again.</span>
+                </li>
+                <li>
+                    <div class="avatar"></div><span>I haven't eaten any other mascots since yesterday.</span>
+                </li>
+                <li>
+                    <div class="avatar"></div><span>Burp.</span>
+                </li>
+            </ul>
+        </div>
     </div>
-        <ul>
-            <li>
-                <div></div><span>Hey there, it's Gritty again.</span>
-            </li>
-            <li>
-                <div></div><span>I haven't eaten any other mascots since yesterday.</span>
-            </li>
-            <li>
-                <div></div><span>Burp.</span>
-            </li>
-        </ul>
-</body>
+       </body>
 </html>
